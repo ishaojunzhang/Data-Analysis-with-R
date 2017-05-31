@@ -222,11 +222,11 @@ ggplot(aes(x = Month, y = Temp), data = Mitchell) +
 ***
 
 ### Noisy Scatterplots
-a. Take a guess for the correlation coefficient for the scatterplot.
-0
-b. What is the actual correlation of the two variables?
+a. Take a guess for the correlation coefficient for the scatterplot. 0
+
+b. What is the actual correlation of the two variables? 0.057
 (Round to the thousandths place)
-0.057
+
 ```{r Noisy Scatterplots}
 with(Mitchell, cor.test(Month, Temp))
 ```
